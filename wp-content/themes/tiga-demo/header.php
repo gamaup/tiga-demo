@@ -21,3 +21,9 @@
 
 <body <?php body_class( $body_class ); ?>>
 	<div id="main">
+		<nav class="navbar navbar-light bg-light">
+			<div class="container">
+				<a class="navbar-brand" href="<?php echo site_url() ?>/items">Tiga Demo</a>
+			</div>
+		</nav>
+
